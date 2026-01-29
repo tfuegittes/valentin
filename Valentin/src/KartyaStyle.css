@@ -1,0 +1,44 @@
+.container{
+          
+  min-height: 90vh;      
+  
+  display: grid;
+  place-items: center;   
+
+
+}
+.gombok{
+display: flex;
+gap: 50px;
+}
+.gomb{
+          font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+          line-height: 1.5;
+          font-weight: 510;
+          border-radius: 10px;
+          font-size: 1.5em;
+          height: 40px;
+          width: 100px;
+          background-color: rgb(255, 255, 255 ,0.85);
+          border-style: none;
+          cursor:pointer;
+}
+.main-card{
+          min-width:500px ;
+          background-color: rgb(204, 65, 183);
+          padding: 20px;
+          border-radius: 20px;
+          text-align: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+      
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+}
+.cicagif{
+          max-width: 250px;
+          max-height: 300px;
+}
